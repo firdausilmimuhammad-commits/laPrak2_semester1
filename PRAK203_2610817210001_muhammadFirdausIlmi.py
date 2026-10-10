@@ -1,0 +1,4 @@
+a, b, i, j, x, y = map(float, input().split())
+result = float((a - b) * (i / j) - (x + y))
+
+print(f"{result:.3f}")
